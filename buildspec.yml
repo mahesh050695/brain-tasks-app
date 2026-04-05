@@ -11,7 +11,7 @@ phases:
   pre_build:
     commands:
       - echo Updating kubeconfig
-      - aws eks update-kubeconfig --region ap-south-1 --name YOUR_CLUSTER_NAME
+      - aws eks update-kubeconfig --region ap-south-1 --name brain-tasks-cluster
 
   build:
     commands:
